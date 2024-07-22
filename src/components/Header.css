@@ -1,0 +1,54 @@
+/* Header.css */
+
+.header {
+    background-color: #e0f7fa; /* Light blue background color */
+    padding: 10px 20px; /* Padding around the header */
+    border-bottom: 2px solid #0288d1; /* Optional: Add a border for separation */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #0288d1; /* Darker blue color for the logo */
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Space between items */
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #0288d1; /* Blue color for the links */
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #01579b; /* Darker blue color on hover */
+  }
+  
+  .logout-button {
+    background: none;
+    border: none;
+    color: #0288d1;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .logout-button:hover {
+    color: #01579b; /* Darker blue color on hover */
+  }
+  
+  .user-greeting {
+    color: #0288d1;
+    font-size: 1rem;
+  }
+  

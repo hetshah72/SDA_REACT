@@ -1,0 +1,31 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+
+main {
+  flex: 1; /* Allow the main content to grow and fill available space */
+}
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #0288d1; /* Optional: Add a border around the image */
+  border-radius: 8px; /* Optional: Round the corners of the image */
+  margin-top: 20px;
+}
